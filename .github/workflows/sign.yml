@@ -33,7 +33,7 @@ jobs:
         run: |
           rm testdata/test1*
       - name: upload the macos build
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: signed-wda
           path: testdata/wda-signed.ipa
